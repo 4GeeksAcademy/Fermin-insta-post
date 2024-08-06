@@ -1,0 +1,57 @@
+body{
+    background: lightgray;
+    border: 100px; 
+    margin: 100px;
+    
+}
+div {
+    box-sizing: border-box;
+}
+header{
+    background: white;
+    padding: 10px;
+}
+div.post{
+    background: white;
+    border-color: black;
+    margin: 1290px;
+    margin-top: 100px;
+}
+div.post img{
+    width:100%;
+    display: center;
+}
+div.post .post-header div:first-child{
+    display:inline-block;
+    width:80%;
+}
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    color: black;
+}
+div.post h1, div.post p{
+    padding: 5px;
+    margin:0;
+}
+div.post .post-icons{
+    display: inline-block;
+    width: 90%;
+    height: 40px;
+    padding: 2px;
+}
+div.post .post-icons .bookmark{
+    display: inline-block;
+    float: right;
+}
+div.container1{
+    width: 600px;
+    margin: auto;
+
+}
+div.container2{
+    width: 600px;
+    margin: auto;
+}
